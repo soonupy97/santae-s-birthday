@@ -10864,8 +10864,11 @@ html {
 }
 
 header {
+  display: flex;
   padding-top: 14rem;
   padding-bottom: 14rem;
+  height: 100vh;
+  align-items: center;
 }
 
 section {
