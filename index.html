@@ -1,102 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta property="og:title" content="상태야 생일 축하한다" />
-        <meta property="og:image" content="assets/img/og-image.jpg" />
+        <meta charset="utf-8"/>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta property="og:title" content="콘텐츠 제목"/>
+        <meta property="og:url" content="웹페이지 URL"/>
+        <meta property="og:type" content="웹페이지 타입(blog, website 등)"/>
+        <meta property="og:image" content="표시되는 이미지"/>
+        <meta property="og:title" content="웹사이트 이름"/>
+        <meta property="og:description" content="웹페이지 설명"/>
         <title>Sangtae's Birthday</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container px-4">
                 <a class="navbar-brand" href="#page-top">Sangtae's Birthday</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">꼭 눌러봐 → <span class="navbar-toggler-icon" onclick="toggleText()"></span><p id="menu-text" style="display:none;">메뉴에 뭐가 있겠냐<br>븅신아 ㅋㅋㅋ</p></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-
-            </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-primary bg-gradient text-white">
-            <div class="container px-4 text-center">
-                <h1 class="fw-bolder">상태야 생일 축하한다</h1>
-                <p class="lead">너를 위해 특별히 준비했다.</p>
-                <a class="btn btn-lg btn-light" href="#about">이거 누르면 ㅂㅅ</a>
-            </div>
-        </header>
-        <!-- About section-->
-        <section id="about">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>27번째 생일 축하한다 상태야</h2>
-                        <p class="lead">정성 ㅈ빠지는 선물을 준비했다. 너를 위해 나름 편지도 준비했단다.</p>
-                    </div>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">꼭 눌러봐 →
+                    <span class="navbar-toggler-icon" onclick="toggleText()"></span>
+                    <p id="menu-text" style="display:none;">메뉴에 뭐가 있겠냐<br>븅신아 ㅋㅋㅋ</p>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive"></div>
+            </nav>
+            <!-- Header-->
+            <header class="bg-primary bg-gradient text-white">
+                <div class="container px-4 text-center">
+                    <h1 class="fw-bolder">상태야 생일 축하한다</h1>
+                    <p class="lead">너를 위해 특별히 준비했다.</p>
+                    <a class="btn btn-lg btn-light" href="#about">이거 누르면 ㅂㅅ</a>
                 </div>
-            </div>
-        </section>
-        <!-- Services section-->
-        <section class="bg-light" id="services">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>축하의 편지</h2>
-                        <p class="lead">우리가 알게된지 벌써 10년이 훌쩍 넘어버렸구나...</p>
-                        <div class="fishing">
-                            <a href="#" onclick="toggleFishingText(event)">더보기</a>
-                            <span id="fishing-text" style="display:none;">아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ</span>
+            </header>
+            <!-- About section-->
+            <section id="about">
+                <div class="container px-4">
+                    <div class="row gx-4 justify-content-center">
+                        <div class="col-lg-8">
+                            <h2>27번째 생일 축하한다 상태야</h2>
+                            <p class="lead">정성 ㅈ빠지는 선물을 준비했다. 너를 위해 나름 편지도 준비했단다.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Contact section-->
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; soonupy 2024</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
-    <script>
-        function toggleText() {
-            var text = document.getElementById("menu-text");
-            if (text.style.display === "none") {
-                text.style.display = "block";
-            } else {
-                text.style.display = "none";
+            </section>
+            <!-- Services section-->
+            <section class="bg-light" id="services">
+                <div class="container px-4">
+                    <div class="row gx-4 justify-content-center">
+                        <div class="col-lg-8">
+                            <h2>축하의 편지</h2>
+                            <p class="lead">우리가 알게된지 벌써 10년이 훌쩍 넘어버렸구나...</p>
+                            <div class="fishing">
+                                <a href="#" onclick="toggleFishingText(event)">더보기</a>
+                                <span id="fishing-text" style="display:none;">아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact section-->
+            <!-- Footer-->
+            <footer class="py-5 bg-dark">
+                <div class="container px-4">
+                    <p class="m-0 text-center text-white">Copyright &copy; soonupy 2024</p>
+                </div>
+            </footer>
+            <!-- Bootstrap core JS-->
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Core theme JS-->
+            <script src="js/scripts.js"></script>
+        </body>
+        <script>
+            function toggleText() {
+                var text = document.getElementById("menu-text");
+                if (text.style.display === "none") {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
             }
-        }
-    </script>
-    <script>
-        function toggleText() {
-            var text = document.getElementById("menu-text");
-            if (text.style.display === "none") {
-                text.style.display = "block";
-            } else {
-                text.style.display = "none";
+        </script>
+        <script>
+            function toggleText() {
+                var text = document.getElementById("menu-text");
+                if (text.style.display === "none") {
+                    text.style.display = "block";
+                } else {
+                    text.style.display = "none";
+                }
             }
-        }
 
-        function toggleFishingText(event) {
-    event.preventDefault();
-    var text = document.getElementById("fishing-text");
-    var link = event.target; // 링크 요소 가져오기
-    if (text.style.display === "none") {
-        text.style.display = "block";
-        link.textContent = "접기"; // 텍스트 변경
-        text.textContent = "아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ"; // 텍스트 변경
-    } else if (text.textContent === "아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ") {
-        text.textContent = "접히겠냐 병신아 ㅋㅋㅋㅋ"; // 텍스트 변경
-        link.style.pointerEvents = "none"; // 링크 비활성화
-    }
-}
-
-    </script>
-</html>
+            function toggleFishingText(event) {
+                event.preventDefault();
+                var text = document.getElementById("fishing-text");
+                var link = event.target; // 링크 요소 가져오기
+                if (text.style.display === "none") {
+                    text.style.display = "block";
+                    link.textContent = "접기"; // 텍스트 변경
+                    text.textContent = "아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ"; // 텍스트 변경
+                } else if (text.textContent === "아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ") {
+                    text.textContent = "접히겠냐 병신아 ㅋㅋㅋㅋ"; // 텍스트 변경
+                    link.style.pointerEvents = "none"; // 링크 비활성화
+                }
+            }
+        </script>
+    </html>
