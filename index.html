@@ -44,7 +44,7 @@
                     <div class="row gx-4 justify-content-center">
                         <div class="col-lg-8">
                             <h2>27번째 생일 축하한다 상태야</h2>
-                            <p class="lead">정성 ㅈ빠지는 선물을 준비했다. 너를 위해 나름 편지도 준비했단다.</p>
+                            <p class="lead">정성 ㅈ빠지는 선물을 준비했다.<br>너를 위해 나름 편지도 준비했단다.</p>
                         </div>
                     </div>
                 </div>
@@ -59,6 +59,20 @@
                             <div class="fishing">
                                 <a href="#" onclick="toggleFishingText(event)">더보기</a>
                                 <span id="fishing-text" style="display:none;">아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="download" id="download">
+                <div class="container px-4">
+                    <div class="row gx-4 justify-content-center">
+                        <div class="col-lg-8">
+                            <h2>축하의 선물</h2>
+                            <p class="lead">기프티콘이니까 형수님과 나눠 먹으라고 2장 준비했다</p>
+                            <div class="fishing">
+                                <a href="assets/present1.jpg" download="present.jpg">Present1</a>
+                                <a href="assets/present2.jpg" download="present.jpg">Present2</a>
                             </div>
                         </div>
                     </div>
@@ -106,7 +120,7 @@
                     link.textContent = "접기"; // 텍스트 변경
                     text.textContent = "아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ"; // 텍스트 변경
                 } else if (text.textContent === "아이고 또 속냐 상태야... 장문의 편지가 있겠냐 ㅋㅋㅋㅋㅋㅋ") {
-                    text.textContent = "접히겠냐 병신아 ㅋㅋㅋㅋ"; // 텍스트 변경
+                    text.textContent = "접히겠냐 병신아 ㅋㅋㅋㅋ 어휴 학습능력 없는 새끼 ㅉㅉ"; // 텍스트 변경
                     link.style.pointerEvents = "none"; // 링크 비활성화
                 }
             }
