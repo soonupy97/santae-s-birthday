@@ -8193,6 +8193,7 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: lightskyblue !important;
+  
 }
 
 .bg-dark {
@@ -8206,11 +8207,16 @@ textarea.form-control-lg {
 }
 .download{
   text-align: center;
+  background: url(../assets/cad.jpg) center;
+  background-size: contain;
+  background-position: center;
+  /* background-repeat: no-repeat; */
 
   .fishing{
 display: flex;
 flex-direction: column;
 align-items: center;
+
 
 
     a{
