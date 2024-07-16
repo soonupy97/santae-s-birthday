@@ -10895,7 +10895,7 @@ header {
   display: flex;
   padding-top: 14rem;
   padding-bottom: 14rem;
-  height: 100vh;
+  height: 100dvh;
   align-items: center;
 }
 
